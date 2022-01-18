@@ -1,11 +1,11 @@
-Hey there!
+大家好！
 
-I'm Christian, and I make games as a hobby. I also run a youtube channel where I post tutorials every now and then.
+我叫克里斯汀，制作游戏是我的爱好。我同时也运营着油管频道，在那里我会发布一些教程。
 
-This is a repository for the code written in my youtube tutorials. Feel free to use the code to your liking. If you happen to use any of my code in your projects and wanna give me a little nod of credit, it's always appreciated. 
+这是我油管教程中所写代码的仓库。你可以自由地使用这里的代码。如果你用在你的项目中，并且想给予我红包以资鼓励，我深感荣幸。
 
-Also consider checking out my youtube channel by clicking the duckling below (and maybe even subscribing):
+你也可以查看我油管的频道链接（甚至可以订阅一下）：
 
-[![Youtube Channe](https://github.com/ChristianD37/YoutubeTutorials/blob/master/readme%20images/logo.gif)](https://www.youtube.com/channel/UCB2mKxxXPK3X8SJkAc-db3A)
+[![油管频道](https://github.com/ChristianD37/YoutubeTutorials/blob/master/readme%20images/logo.gif)](https://www.youtube.com/channel/UCB2mKxxXPK3X8SJkAc-db3A)
 
-Hope you learn a lot : )
+希望你能收获满满 : )
