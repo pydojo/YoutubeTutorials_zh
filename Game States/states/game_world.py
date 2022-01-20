@@ -9,7 +9,7 @@ class Game_World(State):
         self.grass_img = pygame.image.load(os.path.join(self.game.assets_dir, "map", "grass.png"))
 
     def update(self,delta_time, actions):
-        # Check if the game was paused 
+        # 检查游戏是否暂停
         if actions["start"]:
             new_state = PauseMenu(self.game)
             new_state.enter_state()

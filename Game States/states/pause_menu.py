@@ -6,11 +6,11 @@ class PauseMenu(State):
     def __init__(self, game):
         self.game = game
         State.__init__(self, game)
-        # Set the menu
+        # 设置游戏菜单
         self.menu_img = pygame.image.load(os.path.join(self.game.assets_dir, "map", "menu.png"))
         self.menu_rect = self.menu_img.get_rect()
         self.menu_rect.center = (self.game.GAME_W*.85, self.game.GAME_H*.4)
-        # Set the cursor and menu states
+        # 设置光标和菜单状态
         self.menu_options = {0 :"Party", 1 : "Items", 2 :"Magic", 3 : "Exit"}
         self.index = 0
         self.cursor_img = pygame.image.load(os.path.join(self.game.assets_dir, "map", "cursor.png"))
@@ -27,7 +27,7 @@ class PauseMenu(State):
         self.game.reset_keys()
 
     def render(self, display):
-        # render the gameworld behind the menu, which is right before the pause menu on the stack
+        # 加载菜单时渲染游戏世界，这样做在列出暂停菜单之前就可以完成游戏世界的加载
         #self.game.state_stack[-2].render(display)
         self.prev_state.render(display)
         display.blit(self.menu_img, self.menu_rect)
@@ -44,7 +44,6 @@ class PauseMenu(State):
         elif self.menu_options[self.index] == "Exit": 
             while len(self.game.state_stack) > 1:
                 self.game.state_stack.pop()
-
 
     def update_cursor(self, actions):
         if actions['down']:
